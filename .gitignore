@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VS Code workspaces and settings (may reference local paths)
+*.code-workspace
+.vscode/
+
+# JetBrains / other IDEs
+.idea/
+
+# Editor backups
+*.swp
+*.swo
+*~
+
+# Environment / secrets — should never be in this repo, but defense in depth
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# OS / system
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Claude Code
+.claude/
